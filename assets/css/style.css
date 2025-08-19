@@ -1,0 +1,648 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f5f5f5;
+}
+i{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    color: #606060;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #1F2128;
+}
+header{
+    background-color: #fff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.35);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.form-control:focus{
+    box-shadow: none;
+    border: 1px solid #1F2128;
+}
+.logo{
+    width: 200px;
+}
+.invalid{
+    border-bottom: 2px solid red;
+  }
+/* HOME */
+
+.slider{
+    width: 100%;
+}
+.about{
+    width: 100%;
+    border: none;
+    background-color: #f5f5f5;
+}
+.bg-home{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    background-image: url('../img/floating_widnow.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+.down{
+    position: relative;
+    top: 200px;
+}
+.card-h{
+    border: none;
+    border-radius: 0px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.35);
+    transition-duration: 0.3s;
+}
+.card-h:hover{
+    transition-duration: 0.3s;
+    transform:scale(1.05);
+}
+.card-h img{
+    width: 100%;
+}
+footer{
+    background-color: #1F2128;
+}
+footer p{
+    color: #d8d8d8;
+}
+footer h5{
+    color: #fff;
+}
+.c-hvr{
+    transition-duration: 0.2s;
+}
+.benefits .card{
+    background-color: #f5f5f5;
+    box-shadow: none;
+}
+.c-hvr:hover {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.35);
+    transition-duration: 0.1s;
+}
+.main{
+    padding-bottom: 75px;
+}
+.btn-hvr{
+    transition-duration: 0.3s;
+    font-weight: 600;
+}
+.btn-hvr:hover{
+    background-color: #1F2128;
+    color: #fff;
+}
+.icon-hom{
+    font-size: 12px;
+    margin-right: 10px;
+}
+footer p{
+    margin-bottom: 0px;
+}
+footer a{
+    color:#d8d8d8;
+    transition-duration: 0.3s;
+}
+footer a:hover{
+    text-decoration: none;
+    color:#d8d8d8;
+    margin-left: 5px;
+}
+.btn-hvr2{
+    transition-duration: 0.3s;
+    font-weight: 600;
+    color: white;
+}
+.btn-hvr2:hover{
+    background-color: #fff;
+    color: #1F2128;
+}
+.footer-box{
+    margin-left: 190px;
+}
+/* ABOUT US */
+
+.bg-abt{
+    width: 100%;
+    background-image: url('../img/pozadina.png');
+    background-size: cover;
+    height: 60em;
+}
+.bg-jbt{
+    background-color: transparent;
+}
+.bg-abt-1{
+    background-image: url('../img/enterijer.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    margin-bottom: 800px;
+    position: relative;
+}
+.abt-pos{
+    position: relative;
+    top: 200px;
+}
+.abt-pos h3{
+    text-align: center;
+}
+.ln-h{
+    line-height: 30px;
+}
+#benefiti{
+    width: 100%;
+    height: 600px;
+  }
+ #benefiti h2{
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .banners{
+    width:100%;
+    display: flex;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2;
+    border-style: solid;
+    border-image: linear-gradient(to right, #f5f5f5, #1F2128, #f5f5f5) 1;
+  }
+  .banners:last-child{
+    border-bottom: 0px;
+  }
+  .banner-benefit{
+    height: 100px;
+    width: 19.5%;
+    border-right: 0.5%;
+      border-left: 0;
+      border-style: solid;
+      border-image: linear-gradient(to bottom,#f5f5f5, #1F2128) 1 100%;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .banner-bottom{
+    border-image: linear-gradient(to top, #f5f5f5, #1F2128) 1 100%;
+  }
+  .banner:last-child {
+    border-right: 0px;
+  }
+  .banner p{
+    margin-top: 15px;
+    color: #8f9a9a;
+  }
+  .banner-benefit{
+    height: 200px;
+    width: 20%;
+    padding-top: 0;
+    padding: 0.5%;
+  }
+  .banner-benefit p{
+    font-size: 15px;
+  }
+  .banner-benefit h3{
+    color:#000;
+    font-size: 23px;
+  }
+/* MODELS */
+.bg-serv{
+    background-image: url('../img/floating_widnow2.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.shadow-serv{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: inherit;
+}
+.txt-w h2, .txt-w p{
+    color: #fff;
+}
+.model-text h2{
+    font-size: 75px;
+}
+.model-text{
+    font-size: 30px;
+}
+.model-text img{
+    width: 100%;
+}
+.katalog{
+    height: 100px;
+    width: 100%;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.katalog a{
+    font-size: 30px;
+}
+.katalog a:hover{
+    background-color: #1F2128;
+    color: #fff;
+  }
+.aw-color{
+    color: #1F2128;
+}
+.terra::-webkit-scrollbar {
+    display: none
+}
+.terra{
+    width:100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+.terra-slide{
+    width:100%;
+    height: 95vh;
+    scroll-snap-align: start;
+    padding-top: 5vh;
+}
+.terra-slide .container-fluid{
+    padding: 0;
+}
+.terra-slide footer{
+    height: 400px;
+    font-size: 12px;
+    margin-right: 50px;
+    width: 100%;
+    bottom: 0;
+}
+.terra-slide footer img{
+    width: 150px;
+}
+.terra-float{
+    float: left;
+}
+.boxes1 {
+	display: flex;
+	justify-content: space-evenly;
+}
+.box1 {
+	width: 30vw;
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: 200;
+	padding: 0 4vw 4vw;
+    text-align: center;
+}
+.box1:last-child {
+	border-right: 0;
+}
+.box1 .icon {
+	font-size: 4em;
+	color: #555;
+	margin-bottom: 0.6em;
+}
+.box1 .icon:hover {
+	color: #d8d8d8;
+}
+.box1 img{
+  width: 100%;
+}
+.box1 i{
+  font-size: 30px;
+}
+.cena{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+    font-weight: 650;
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+#ponuda h2{
+    text-align: center;
+}
+.slide-show{
+    display: none;
+}
+.box-responsive{
+    display: flex;
+    float: left;
+}
+.specs b{
+    color:#000;
+}
+/* CONTACT */
+
+.map{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 100px;
+    filter: grayscale(100%);
+}
+.bg-cont{
+    background-color: #1F2128;
+}
+.bg-cont h2, .bg-cont p{
+    color: white;
+}
+.mar-con{
+    margin-bottom: 100px;
+}
+.icon-con{
+    margin-right: 10px;
+    font-size: 20px;
+}
+/* AUTHOR */
+.link-s{
+    color: #fff;
+}
+.link-s:hover{
+    color: #fff;
+    text-decoration: none;
+}
+/* RESPONSIVE CSS */
+
+@media (min-width: 1200px){ 
+    .abt-pos{
+        width: 70%;
+    }
+}
+@media (min-width: 1400px){ 
+    .abt-pos{
+        width: 60%;
+    }
+}
+@media (min-width: 1600px){ 
+    .abt-pos{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1920px){
+    #benefiti{
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .terra-float p{
+        font-size: 25px;
+    }
+    .terra-slide h2{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .pho-1{
+        display: none;
+    }
+    .banner-benefit{
+        height: 250px;
+    }
+    .banner-benefit h3{
+        font-size: 17px;
+    }
+    #benefiti{
+        height: 800px;
+    }
+    .terra-float{
+        float: none;
+    }
+    .specs{
+        float: left;
+        margin-left: 30px;
+    }
+    .terra-float img{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .terra-float p{
+        font-size: 22px;
+    }
+    .footer-box{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 1080px){
+
+}
+@media screen and (max-width: 992px){
+    .bg-home{
+        margin-bottom: 775px;
+    }
+    .bg-abt-1{
+        margin-bottom: 650px;
+    }
+    .pho-1{
+        display: block;
+    }
+    #benefiti{
+        padding-top: 500px;
+        margin-bottom: 100px;
+    }
+    #benefiti{
+        height: 1600px;
+    }
+    .banner{
+        width: 48%;
+        float: left;
+        border: 0;
+        padding: 1%;
+        height: 150px;
+    }
+    .banner:last-child{
+        margin-left: 25%;
+    }
+    .banners{
+        display: inline-block;
+        margin-top: 30px;
+        border: 0;
+    }
+    .cena{
+        width: 80%;
+    }
+    .ft-hide{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .bg-home{
+        margin-bottom: 850px;
+    }
+    .banner-benefit{
+        height: 200px;
+    }
+    #benefiti{
+        margin-bottom: 300px;
+    }
+    .banner-benefit{
+        padding-bottom: 150px;
+    }
+    .terra-float p{
+        font-size: 18px;
+    }
+    .aw-color{
+        font-size: 18px;
+    }
+    .terra-float img{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .slide-hide{
+        display:none;
+    }
+    .slide-show{
+        display: block;
+    }
+    .slide-show:last-child{
+        padding: 0;
+    }
+    .slide-show footer{
+        height: 100%;
+    }
+    #ponuda h2{
+        margin-bottom: 30px;
+    }
+    .box1{
+        width: 50%;
+        font-size: 14px;
+    }
+    .cena{
+        margin-top: 50px;
+    }
+    .none-d{
+        display: none;
+    }
+}
+@media screen and (max-width: 575px){
+    .abt-pos, .mar-con{
+        width: 95%;
+    }
+    .specs i{
+        margin: 0;
+    }
+    .specs{
+        float: none;
+        margin-bottom: 0;
+    }
+    .terra-float .aw-color{
+        margin-right: 0;
+    }
+    .model-text h2{
+        font-size: 45px;
+    }
+    .model-text p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 548px){
+    .bg-home{
+        margin-bottom: 930px;
+    }
+    .terra-float p{
+        font-size: 16px;
+    }
+    .cena{
+        margin-top: 0;
+        width: 100%;
+        font-size: 20px;
+    }
+    .awesome{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 450px){
+    .bg-home{
+        margin-bottom: 1050px;
+    }
+    .bg-abt-1{
+        margin-bottom: 830px;
+    }
+    .specs{
+        height: 30px;
+    }
+    .specs:last-child{
+        margin-bottom: 30px;
+    }
+    .terra-float p{
+        margin: 0;
+    }
+    .terra-float h3{
+        margin:0;
+    }
+    .terra-float img{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .bg-serv{
+        height: 400px;
+    }
+    .terra-slide h2{
+        margin-top: 10px;
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 380px){
+    .terra-float p{
+        font-size: 14px;
+    }
+    .terra-slide h2{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 361px){
+    .bg-home{
+        margin-bottom: 1080px;
+    }
+    .bg-abt-1{
+        margin-bottom: 900px;
+    }
+}
+@media only screen and (max-width:450px){
+    #benefiti{
+      height: 2600px;
+      padding-top: 700px;
+    }
+    .banners{
+      margin: 0;
+    }
+    .banner{
+      height: 75px;
+      width: 90%;
+      border: 0;
+      margin-left: 5%;
+    }
+    .banner:last-child{
+      margin: 0;
+      margin-left: 5%;
+    }
+    .banner-benefit{
+      height: 200px;
+    }
+}
+@supports (-webkit-touch-callout: none) {
+    .bg-abt-1{
+        background-attachment: scroll;
+    }
+    .bg-home{
+        background-attachment: scroll;
+    }
+    .bg-serv{
+        background-attachment: scroll;
+    }
+}
+
+
+
+
+
+
+  
