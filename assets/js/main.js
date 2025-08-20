@@ -5,7 +5,7 @@ $(document).ready(function() {
   let menuNames = ["Početna", "O Nama", "Modeli", "Kontakt", "Autor"];
 
   let menuLinks;
-  if (window.location.pathname.startsWith("/pages/")) {
+  if (window.location.pathname.includes("/pages/")) {
     menuLinks = ["../index.html", "about.html", "models.html", "contact.html", "author.html"];
   } else {
     menuLinks = ["index.html", "pages/about.html", "pages/models.html", "pages/contact.html", "pages/author.html"];
