@@ -67,22 +67,22 @@ $(document).ready(function() {
   const bannerRow = document.getElementById("bannerRow");
 
   if (bannerRow) {
-    let html = "";
+    let htmlBanner = "";
     for (let i = 0; i < bannerTitles.length; i++) {
-      html += ""
-        '<div class="col-12 col-lg-4 text-center my-4">'
+      htmlBanner +=
+        '<div class="col-12 col-lg-4 text-center my-4">' +
           '<div class="card card-h">' +
             '<div class="card-body">' +
               '<i class="' + bannerIcons[i] + '"></i>' +
-                '<h5 class="card-title">' + bannerTitles[i] + '</h5>' +
-                '<p class="card-text">' + bannerTexts[i] + '</p>' +
-                '<a href="' + bannerLinks[i] + '" class="btn border border-dark rounded-0 mb-2 btn-hvr">Vidi još</a>' +
-              '</div>' +
+              '<h5 class="card-title">' + bannerTitles[i] + '</h5>' +
+              '<p class="card-text">' + bannerTexts[i] + '</p>' +
+              '<a href="' + bannerLinks[i] + '" class="btn border border-dark rounded-0 mb-2 btn-hvr">Vidi još</a>' +
             '</div>' +
-          '</div>';
+          '</div>' +
+        '</div>';
     }
 
-    bannerRow.innerHTML = html;
+    bannerRow.innerHTML = htmlBanner;
   }
 
   // Ispis benefita na pocetnoj stranici
@@ -401,12 +401,14 @@ $(document).ready(function() {
         { url: "pages/about.html", text: "O Nama" },
         { url: "pages/models.html", text: "Modeli" },
         { url: "pages/contact.html", text: "Kontakt" },
-        { url: "pages/author.html", text: "Autor" }
+        { url: "pages/author.html", text: "Autor" },
+        { url: "dokumentacija.pdf", text: "Dokumentacija" }
     ] : [
         { url: "about.html", text: "O Nama" },
         { url: "models.html", text: "Modeli" },
         { url: "contact.html", text: "Kontakt" },
-        { url: "author.html", text: "Autor" }
+        { url: "author.html", text: "Autor" },
+        { url: "../dokumentacija.pdf", text: "Dokumentacija" }
     ];
 
     $("#footerLinks").append(`<h5>Linkovi</h5>`);
